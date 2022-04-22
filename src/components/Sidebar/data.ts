@@ -1,6 +1,7 @@
 type Skill = string;
 type SkillLevel = 1 | 2 | 3 | 4 | 5;
 type Language = string;
+type Tool = string;
 
 interface PersonalInfo {
   label: string;
@@ -20,6 +21,7 @@ export interface SidebarData {
   skills: Skill[];
   technologies: Technology[];
   languages: Language[];
+  tools: Tool[];
 }
 
 const data: SidebarData = {
@@ -48,26 +50,34 @@ const data: SidebarData = {
   skills: [
     'Team Player',
     'Focused & Efficient',
-    'Good Communicator',
     'Task Oriented',
+    'Good Communicator',
+    'Fluent English: Written & Verbal',
   ],
   technologies: [
-    { name: 'Django', level: 3 },
     { name: 'React.js', level: 4 },
     { name: 'Express.js (and MERN)', level: 3 },
+    { name: 'Django', level: 2 },
     { name: 'MongoDB/MySQL', level: 3 },
   ],
   languages: [
-    'HTML/CSS/JS',
-    'TypeScript',
-    'Redux',
-    'React Router v6',
+    'HTML5',
+    'CSS3',
     'Python',
-    'npm',
-    'Git',
-    'GitHub',
-    'C/C++',
+    'C++',
+    'JavaScript',
+    'Typescript',
     'Java',
+  ],
+  tools: [
+    'npm',
+    'React Router',
+    'Redux',
+    'Express',
+    'git',
+    'GitHub',
+    'Passport.js',
+    'Mongoose',
   ],
 };
 

@@ -7,7 +7,7 @@ interface LanguageItemProps {
 const LanguageItem = ({ item }: LanguageItemProps) => {
   return (
     <span
-      className="rounded-full bg-cream text-darkBlue text-xs py-1 px-2
+      className="rounded-full bg-cream text-darkBlue text-sm py-1 px-2
         shadow-darkBlue shadow-md"
     >
       {item}

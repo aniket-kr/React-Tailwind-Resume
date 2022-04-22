@@ -1,5 +1,5 @@
 import data from 'components/Sidebar/data';
-import LanguagesSection from 'components/Sidebar/LanguagesSection';
+import PillCollectionSection from 'components/Sidebar/PillCollectionSection';
 import PersonalInfoSection from 'components/Sidebar/PersonalInfoSection';
 import SkillsSection from 'components/Sidebar/SkillsSection';
 import TechnologiesSection from 'components/Sidebar/TechnologiesSection';
@@ -13,7 +13,8 @@ const Sidebar = () => {
       <PersonalInfoSection />
       <SkillsSection />
       <TechnologiesSection />
-      <LanguagesSection />
+      <PillCollectionSection label="Languages" items={data.languages} />
+      <PillCollectionSection label="Tools" items={data.tools} />
     </div>
   );
 };

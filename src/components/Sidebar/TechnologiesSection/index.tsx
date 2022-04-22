@@ -4,7 +4,7 @@ import TechnologyItem from 'components/Sidebar/TechnologiesSection/TechnologyIte
 
 const TechnologiesSection = () => {
   return (
-    <div className="mb-[-0.25rem]">
+    <div className="mb-[-0.5rem]">
       <SectionHeader label="Technologies" />
       {data.technologies.map((item) => (
         <TechnologyItem key={item.name} item={item} />

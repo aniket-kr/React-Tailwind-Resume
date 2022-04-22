@@ -23,7 +23,7 @@ const TechnologyItem = ({ item }: TechnologyItemProps) => {
   const width = getWidthClass(item.level);
   return (
     <div className="px-2 my-3">
-      <h4 className="text-sm text-cream mb-1">{item.name}</h4>
+      <h4 className="text-cream mb-1">{item.name}</h4>
       <div className="h-1 bg-darkBlue">
         <div className={`relative top-0 left-0 h-1 bg-cream ${width}`} />
       </div>
