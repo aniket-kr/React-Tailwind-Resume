@@ -45,7 +45,13 @@ const data: SidebarData = {
       link: 'https://github.com/aniket-kr',
     },
   ],
-  skills: [],
+  skills: [
+    'Team Player',
+    'Focused',
+    'Time Efficient',
+    'Good Communication',
+    'Task Oriented',
+  ],
   technologies: [],
   languages: [],
 };
