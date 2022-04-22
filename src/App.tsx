@@ -1,8 +1,8 @@
-import Sidebar from './components/Sidebar';
+import Sidebar from 'components/Sidebar';
 
 const App = () => {
   return (
-    <div className="flex aspect-[1/1.4142] h-[900px] border-2">
+    <div className="aspect-[1/1.4142] border-2 h-[910px] flex">
       <Sidebar />
     </div>
   );
