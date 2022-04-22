@@ -17,6 +17,7 @@ const InfoItem = ({ info }: InfoItemProps) => {
           className={`${baseClasses} cursor-pointer`}
           href={info.link}
           target="_blank"
+          rel="noreferrer"
         >
           {info.value}
         </a>
