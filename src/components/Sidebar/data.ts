@@ -52,8 +52,13 @@ const data: SidebarData = {
     'Good Communication',
     'Task Oriented',
   ],
-  technologies: [],
-  languages: [],
+  technologies: [
+    { name: 'Django', level: 3 },
+    { name: 'React.js', level: 4 },
+    { name: 'Express.js (and MERN)', level: 3 },
+    { name: 'MongoDB/MySQL', level: 3 },
+  ],
+  languages: ['HTML', 'CSS', 'JavaScript', 'Python'],
 };
 
 export default data;

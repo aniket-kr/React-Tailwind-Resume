@@ -1,6 +1,7 @@
 import data from 'components/Sidebar/data';
 import PersonalInfoSection from 'components/Sidebar/PersonalInfoSection';
 import SkillsSection from 'components/Sidebar/SkillsSection';
+import TechnologiesSection from 'components/Sidebar/TechnologiesSection';
 
 const Sidebar = () => {
   return (
@@ -10,6 +11,7 @@ const Sidebar = () => {
 
       <PersonalInfoSection />
       <SkillsSection />
+      <TechnologiesSection />
     </div>
   );
 };
