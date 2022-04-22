@@ -47,9 +47,8 @@ const data: SidebarData = {
   ],
   skills: [
     'Team Player',
-    'Focused',
-    'Time Efficient',
-    'Good Communication',
+    'Focused & Efficient',
+    'Good Communicator',
     'Task Oriented',
   ],
   technologies: [
@@ -58,7 +57,18 @@ const data: SidebarData = {
     { name: 'Express.js (and MERN)', level: 3 },
     { name: 'MongoDB/MySQL', level: 3 },
   ],
-  languages: ['HTML', 'CSS', 'JavaScript', 'Python'],
+  languages: [
+    'HTML/CSS/JS',
+    'TypeScript',
+    'Redux',
+    'React Router v6',
+    'Python',
+    'npm',
+    'Git',
+    'GitHub',
+    'C/C++',
+    'Java',
+  ],
 };
 
 export default data;

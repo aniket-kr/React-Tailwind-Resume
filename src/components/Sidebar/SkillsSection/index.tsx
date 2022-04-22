@@ -7,7 +7,7 @@ const SkillsSection = () => {
       <SectionHeader label="Skills" />
       <div className="flex flex-col px-2 pt-2 gap-1">
         {data.skills.map((skill) => (
-          <p key={skill} className={`text-cream`}>
+          <p key={skill} className="text-cream text-sm">
             {skill}
           </p>
         ))}
