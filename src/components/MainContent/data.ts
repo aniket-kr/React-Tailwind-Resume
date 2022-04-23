@@ -1,8 +1,8 @@
 interface ProjectInfo {
   title: string;
   description: string;
-  knowledgeGained: string[]; // bullet points
   link?: string;
+  knowledgeGained: string[]; // bullet points
 }
 
 interface EducationInfo {
@@ -61,7 +61,18 @@ const data: Data = {
       ],
     },
   ],
-  projects: [],
+  projects: [
+    {
+      title: 'React Resume',
+      description:
+        'This resume was designed as a React application using React and Tailwind CSS. Find the source code at the GitHub Page',
+      knowledgeGained: [
+        'Separating data layer from the view layer.',
+        'Creating custom components to reuse styles.',
+        'Worked extensively with TypeScript types.',
+      ],
+    },
+  ],
   certifications: [],
   interests: [],
 };
